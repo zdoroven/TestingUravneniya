@@ -12,13 +12,17 @@ TEST(myfuncTest, num0) {
     ASSERT_EQ(myfunc(1, 1, 1).flag, 0);
 }
 
-TEST(myfuncTest, greather2) {
-    ASSERT_EQ(myfunc(10, 10, 10).flag, 0);
-    ASSERT_EQ(myfunc(10, 9, 8).flag, 0);
+TEST(myfuncTest, num1) {
+    ASSERT_EQ(myfunc(0, 5, 5).flag, 1);
+    ASSERT_EQ(myfunc(0, 8, 9).flag, 1);
 }
 
-TEST(myfuncTest, negative) {
+TEST(myfuncTest, num2) {
     ASSERT_EQ(myfunc(-1, -5, -3).flag, 2);
+}
+
+TEST(myfuncTest, num3) {
+    ASSERT_EQ(myfunc(0, 0, 0).flag, 3);
 }
 
 #endif // MYFUNCTEST_H
