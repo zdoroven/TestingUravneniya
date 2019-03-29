@@ -13,8 +13,8 @@ TEST(myfuncTest, num0) {
 }
 
 TEST(myfuncTest, num1) {
-    ASSERT_EQ(myfunc(0, 5, 5).flag, 1);
-    ASSERT_EQ(myfunc(0, 8, 9).flag, 1);
+    ASSERT_EQ(myfunc(1, 2, 1).flag, 1);
+    ASSERT_EQ(myfunc(2, 4, 2).flag, 1);
 }
 
 TEST(myfuncTest, num2) {
