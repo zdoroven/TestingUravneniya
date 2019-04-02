@@ -27,7 +27,7 @@ TEST(myfuncTest, num3) {
 
 TEST(myfuncTest, num4) {
     ASSERT_EQ(myfunc(1, -5, 6).x1, 2);
-    ASSERT_EQ(myfunc(1, -5, 6).x2, -3);
+    ASSERT_EQ(myfunc(1, -5, 6).x2, 3);
 }
 
 TEST(myfuncTest, num5) {
