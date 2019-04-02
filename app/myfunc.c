@@ -19,5 +19,9 @@ name myfunc(double a, double b, double c) {
     } else if (d > 0.0){
         roots.flag = 2;
     }
+    if (a == 0.0 ){
+        if(b != 0.0 || c != 0.0){
+            roots.flag = 1;
+        }
+    }
     return roots;
-}
