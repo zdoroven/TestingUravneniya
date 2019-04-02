@@ -13,7 +13,7 @@ name myfunc(double a, double b, double c) {
     }
     roots.x1 = (b * (-1) - sqrt(d))/ (2 * a);
 
-    roots.x2 = (b - sqrt(d))/ (2 * a);
+    roots.x2 = (b * (-1) + sqrt(d))/ (2 * a);
     if (a == 0.0 && b == 0.0 && c == 0.0){
         roots.flag = 3;
     } else if (d > 0.0){
