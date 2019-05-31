@@ -1,13 +1,14 @@
 TEMPLATE = app
 CONFIG += console
 CONFIG -= app_bundle
-CONFIG -= qt
+CONFIG += qt
 
-SOURCES += main.c \
-    myfunc.c
+SOURCES += \
+    functions.cpp \
+    main.cpp
 
 HEADERS += \
-    myfunc.h
+    functions.h
 
 QMAKE_CFLAGS += -Wall -Wextra -Werror
 

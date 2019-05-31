@@ -1,10 +1,3 @@
-[![Build Status](https://travis-ci.org/zdoroven/TestingUravneniya.svg?branch=master)](https://travis-ci.org/zdoroven/TestingUravneniya)
-[![Coverage Status](https://coveralls.io/repos/github/zdoroven/TestingUravneniya/badge.svg?branch=master)](https://coveralls.io/github/zdoroven/TestingUravneniya?branch=master)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=zdoroven_TestingUravneniya&metric=bugs)](https://sonarcloud.io/dashboard?id=zdoroven_TestingUravneniya)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=zdoroven_TestingUravneniya&metric=code_smells)](https://sonarcloud.io/dashboard?id=zdoroven_TestingUravneniya)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=zdoroven_TestingUravneniya&metric=ncloc)](https://sonarcloud.io/dashboard?id=zdoroven_TestingUravneniya)
-
-
-
-
-# TestingUravneniya
+[![Build Status](https://travis-ci.org/zdoroven/Tetris_testing.svg?branch=master)](https://travis-ci.org/zdoroven/Tetris_testing)
+[![Coverage Status](https://coveralls.io/repos/zdoroven/Tetris_testing/badge.svg?branch=master)](https://coveralls.io/github/zdoroven/Tetris_testing?branch=master)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=zdoroven_Tetris_testing&metric=bugs)](https://sonarcloud.io/dashboard?id=zdoroven_Tetris_testing)

@@ -1,4 +1,6 @@
-#include "myfunctest.h"
+#include "cleararray.h"
+#include "calculate.h"
+#include "sort.h"
 
 #include <gtest/gtest.h>
 

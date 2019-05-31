@@ -14,12 +14,29 @@ QMAKE_CXXFLAGS += -fprofile-arcs -ftest-coverage
 QMAKE_CFLAGS += -fprofile-arcs -ftest-coverage
 LIBS += -lgcov
 
+DEFINES += INPUTDIR=\\\"$$PWD/input/\\\"
 
-HEADERS +=     \
-    ../app/myfunc.h \
-    myfunctest.h
+HEADERS +=  ../app/functions.h \
+    calculate.h \
+    cleararray.h \
+    sort.h \
+    calculate.h \
+    cleararray.h \
+    sort.h
 
 SOURCES +=     main.cpp \
-    ../app/myfunc.c
+	../app/functions.c \
+    main.cpp
 
 INCLUDEPATH += ../app
+
+DISTFILES += \
+    expected/expected1 \
+    expected/expected2 \
+    expected/expected3 \
+    input/input1 \
+    input/input2 \
+    input/input3 \
+    output/output1 \
+    output/output2 \
+    output/output3
